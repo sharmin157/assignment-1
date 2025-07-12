@@ -62,7 +62,7 @@ main{
 .action-description{
     font-weight: Regular;
     font-size: 24px;
-    color: #252432;
+    color:  #757575;
 }
 .action{
     display: flex;
@@ -103,7 +103,7 @@ main{
 .item-description{
     font-weight: regular;
     font-size: 20px;
-    color: #000000;
+    color: #757575;
 }
 .stat-item{
     margin: 0px;
