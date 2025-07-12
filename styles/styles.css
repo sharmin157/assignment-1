@@ -13,7 +13,7 @@ body{
     background-image: url("../Assets/Hero-bg.png");
     background-position-x: -9px;
     background-position-y: -18px;
-     height: 698px;
+    height: 698px;
 }
 nav{
     display: flex;
@@ -25,6 +25,10 @@ nav{
     font-weight: black;
     font-size: 34px;
     color: #4E47FF;
+
+}
+.navbar{
+    margin:0px 440px ;
 }
 .btn-primary{
     background-color: #4E47FF;
@@ -35,6 +39,7 @@ nav{
     border-radius: 5px;
     border: none;
     
+    
 }
 
 .raleway-normal{
@@ -44,11 +49,14 @@ nav{
 }
 .banner-section{
     text-align: center;
+    
 }
 .banner-description{
     font-weight: bold;
     font-size: 65px;
     color: #252432;
+    margin: 200px 0 50px 0;
+    
 }
 main{
     width: 1140px;
@@ -99,6 +107,8 @@ main{
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
+    margin:0;
+    padding:0;
 }
 .item-description{
     font-weight: regular;
@@ -108,4 +118,104 @@ main{
 .stat-item{
     margin: 0px;
 }
+.focus-better{
+    background-color: #FFFFFF;
+    text-align: center;
    
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.profile-picture{
+    /* height: 50px; */
+    width: 60px;
+}
+.opacity{
+opacity: 60%;
+}
+.card{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: rgb(255, 251, 247);
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px auto 100px;
+}
+.space{
+margin-top: 20px;
+}
+.focus-better-image{
+    border: 0px solid;
+    border-radius: 40px;
+}
+.card-section{
+    margin:40px auto 0;
+    text-align: center;
+    font-size: 50px;
+
+}
+.ready{
+    font-weight: bold;
+    font-size: 50px;
+   
+}
+
+.touch-title{
+    font-size: 97px;
+
+}
+.touch-column{
+    display: flex;
+    gap: 30px;
+
+}
+.border{
+    border: 2px solid;
+}
+.section-margin{
+    margin: 100px 0;
+}
+section input[type="Email"], section input[type="Name"], section textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    }
+.text-size{
+    text-align: center;
+    padding: 19px 201px;
+}
+    .footer-section{
+     text-align: center;
+     
+    }
+    .footer-title{
+        font-weight: Black;
+        font-size: 100px;
+        color: #4E47FF;
+        margin-bottom: 10px;
+    }
+.footer-subtitle{
+    color: #8987A1;
+}
+.footer-links a{
+text-decoration: none;
+color: #8987A1;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
